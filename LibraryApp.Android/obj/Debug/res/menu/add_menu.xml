@@ -1,0 +1,1 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/action_add" android:icon="@android:drawable/ic_menu_add" android:title="ADD" android:showAsAction="" /><item android:id="@+id/action_cancel" android:icon="@android:drawable/ic_menu_add" android:title="Cancel" android:showAsAction="always" /></menu>

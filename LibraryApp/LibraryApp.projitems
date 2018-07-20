@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{35BEA884-12A3-4812-9FC4-1ED5F0DEE1B2}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>LibraryApp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Data\DataBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\IDataStore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileHelper\IFileWorker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Author.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Book.cs" />
+  </ItemGroup>
+</Project>
